@@ -3,9 +3,6 @@ import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 
-// Import framer-motion
-<lov-add-dependency>framer-motion@latest</lov-add-dependency>
-
 const Hero = () => {
   return (
     <section className="hero-gradient min-h-screen flex items-center pt-20 pb-16 relative overflow-hidden">
