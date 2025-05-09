@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +99,25 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-hind-siliguri;
   }
+}
+
+.gradient-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
+}
+
+.feature-gradient {
+  background: linear-gradient(90deg, #E5FBF5 0%, rgba(229, 251, 245, 0.5) 100%);
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #006B54 0%, #00A884 100%);
+}
+
+.wallet-gradient {
+  background: linear-gradient(90deg, rgba(249, 115, 22, 0.1) 0%, rgba(249, 115, 22, 0.02) 100%);
 }
